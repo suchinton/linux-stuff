@@ -3,7 +3,7 @@
 #checking for updates
 
 echo '### updating...'
-    sudo pacman -Syu
+    sudo paru -Syu
 
 #install all applications 
 
