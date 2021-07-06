@@ -24,6 +24,9 @@ echo '                                                  '
     paru -S --needed --noconfirm ttf-google-sans 
     paru -S --needed --noconfirm stremio 
     paru -S --needed --noconfirm spotify-tui-bin 
+    #_________________________________________________________________________________________________________________________
+    gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
+    #--------------------------------------------------------------------------------------------------------------------------
     paru -S --needed --noconfirm spotify 
     paru -S --needed --noconfirm brave 
     paru -S --needed --noconfirm visual-studio-code-bin 
