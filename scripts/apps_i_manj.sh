@@ -20,8 +20,11 @@ echo '                                                  '
     yay --needed --noconfirm whitesur-cursor-theme-git 
     yay --needed --noconfirm whitesur-icon-theme-git 
     yay --needed --noconfirm android-sdk-platform-tools 
+    #-----------------fonts------------------------------------
     yay --needed --noconfirm apple-fonts 
     yay --needed --noconfirm ttf-google-sans 
+    yay --needed --noconfirm nerd-fonts-jetbrains-mono
+    #----------------------------------------------------------
     yay --needed --noconfirm stremio 
     yay --needed --noconfirm spotify-tui-bin 
     #_________________________________________________________________________________________________________________________

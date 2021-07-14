@@ -20,8 +20,11 @@ echo '                                                  '
     paru -S --needed --noconfirm whitesur-cursor-theme-git 
     paru -S --needed --noconfirm whitesur-icon-theme-git 
     paru -S --needed --noconfirm android-sdk-platform-tools 
+    #-----------------fonts------------------------------------
     paru -S --needed --noconfirm apple-fonts 
     paru -S --needed --noconfirm ttf-google-sans 
+    paru -S --needed --noconfirm nerd-fonts-jetbrains-mono
+    #----------------------------------------------------------
     paru -S --needed --noconfirm stremio 
     paru -S --needed --noconfirm spotify-tui-bin 
     #_________________________________________________________________________________________________________________________
