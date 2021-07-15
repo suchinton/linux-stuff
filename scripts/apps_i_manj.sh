@@ -9,7 +9,8 @@ echo '### updating...'
 
 echo '###installing your applications from repos and AUR...'
 echo '                                                  '
-    yay --needed --noconfirm discord telegram-desktop 
+    yay --needed --noconfirm discord 
+    yay --needed --noconfirm telegram-desktop 
     yay --needed --noconfirm spotifyd 
     yay --needed --noconfirm neofetch 
     yay --needed --noconfirm htop 
