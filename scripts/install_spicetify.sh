@@ -7,8 +7,10 @@ curl -fsSL https://raw.githubusercontent.com/khanhas/spicetify-cli/master/instal
 sudo chmod a+wr /opt/spotify
 sudo chmod a+wr /opt/spotify/Apps -R
 
+./spicetify backup apply
+
+
 #+++++++++++++++++++INSTALLING THEMES++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-git clone https://github.com/morpheusthewhite/spicetify-themes.git
-cd spicetify-themes
-cp -r * ~/.config/spicetify/Themes
+
+#git clone https://github.com/morpheusthewhite/spicetify-themes.git

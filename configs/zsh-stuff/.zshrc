@@ -16,6 +16,6 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
 
-neofetch --ascii /home/suchinton/linux-stuff-/ascii/pizza.txt
+neofetch --ascii /home/suchinton/linux-stuff/ascii/pizza.txt
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
