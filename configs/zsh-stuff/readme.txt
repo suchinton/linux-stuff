@@ -1,0 +1,1 @@
+both .p10k.zsh & .zshrc to be kept in home dir
