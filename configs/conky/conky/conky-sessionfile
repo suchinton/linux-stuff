@@ -1,0 +1,1 @@
+conky -c /home/suchinton/.config/conky/JA-Phone.conkyrc & sleep 1s
