@@ -16,6 +16,15 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
 
+#alias to get to /home/suchinton/
+alias home='cd /home/suchinton/'
+
+#alias to get to /linux-stuff/
+alias linstuff='cd /home/suchinton/linux-stuff/'
+
+#alias to get to /all\ walls/
+alias allwalls='cd /home/suchinton/Pictures/wallpapers/all\ walls/'
+
 neofetch --ascii /home/suchinton/linux-stuff/ascii/pizza.txt
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

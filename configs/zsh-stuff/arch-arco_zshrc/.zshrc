@@ -366,6 +366,16 @@ neofetch --ascii /home/suchinton/linux-stuff/ascii/pizza.txt
 #hfetch
 # install lolcat
 #sfetch | lolcat
+
+#alias to get to /home/suchinton/
+alias home='cd /home/suchinton/'
+
+#alias to get to /linux-stuff/
+alias linstuff='cd /home/suchinton/linux-stuff/'
+
+#alias to get to /all\ walls/
+alias allwalls='cd /home/suchinton/Pictures/wallpapers/all\ walls/'
+
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
