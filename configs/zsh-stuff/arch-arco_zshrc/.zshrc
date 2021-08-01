@@ -376,6 +376,9 @@ alias linstuff='cd /home/suchinton/linux-stuff/'
 #alias to get to /all\ walls/
 alias allwalls='cd /home/suchinton/Pictures/wallpapers/all\ walls/'
 
+#alias to start spt-cli
+alias s='spt'
+
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
