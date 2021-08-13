@@ -33,6 +33,7 @@ echo '                                                  '
     paru -S --needed --noconfirm spotify 
     paru -S --needed --noconfirm brave 
     paru -S --needed --noconfirm visual-studio-code-bin 
+	paru -S --needed --noconfirm base devel
 echo '                                                  '
 
 echo '###installing your apps from snap...'
