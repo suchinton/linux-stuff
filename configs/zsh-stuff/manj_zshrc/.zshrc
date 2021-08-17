@@ -28,6 +28,9 @@ alias allwalls='cd /home/suchinton/Pictures/wallpapers/all\ walls/'
 #alias to start spt-cli
 alias s='spt'
 
+#alias to launch vs code in cpp_stuff
+alias ccpp='code /home/suchinton/cpp_stuff/'
+
 neofetch --ascii /home/suchinton/linux-stuff/ascii/pizza.txt
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
