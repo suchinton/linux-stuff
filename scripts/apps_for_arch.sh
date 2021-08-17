@@ -14,6 +14,7 @@ echo '                                                  '
     paru -S --needed --noconfirm neofetch 
     paru -S --needed --noconfirm htop 
     paru -S --needed --noconfirm xfce4-terminal 
+    paru -S --needed --noconfirm termite
     paru -S --needed --noconfirm stacer 
     paru -S --needed --noconfirm bitwarden                                    
     paru -S --needed --noconfirm cavapify-git 
@@ -33,6 +34,8 @@ echo '                                                  '
     paru -S --needed --noconfirm spotify 
     paru -S --needed --noconfirm brave 
     paru -S --needed --noconfirm visual-studio-code-bin 
+    paru -S --needed --noconfirm octave
+    paru -S --needed --noconfirm webapp-manager
 	paru -S --needed --noconfirm base devel
 echo '                                                  '
 
