@@ -18,8 +18,6 @@ echo '                                                  '
     paru -S --needed --noconfirm stacer 
     paru -S --needed --noconfirm bitwarden                                    
     paru -S --needed --noconfirm cavapify-git 
-    paru -S --needed --noconfirm whitesur-cursor-theme-git 
-    paru -S --needed --noconfirm whitesur-icon-theme-git 
     paru -S --needed --noconfirm android-sdk-platform-tools 
     #-----------------fonts------------------------------------
     paru -S --needed --noconfirm apple-fonts 
@@ -39,5 +37,13 @@ echo '                                                  '
 	paru -S --needed --noconfirm base devel
 echo '                                                  '
 
-echo '###installing your apps from snap...'
-    snap install gemini 
+echo 'Installing Themes and icons....'
+    #====================themes================================
+    #NORDIC
+
+    mkdir /home/suchinton/.themes
+    cd themes
+    git clone https://github.com/EliverLara/Nordic.git
+
+    paru -S --needed --noconfirm whitesur-cursor-theme-git 
+    paru -S --needed --noconfirm whitesur-icon-theme-git 

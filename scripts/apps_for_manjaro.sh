@@ -18,8 +18,6 @@ echo '                                                  '
     yay --needed --noconfirm stacer 
     yay --needed --noconfirm bitwarden                                    
     yay --needed --noconfirm cavapify-git 
-    yay --needed --noconfirm whitesur-cursor-theme-git 
-    yay --needed --noconfirm whitesur-icon-theme-git 
     yay --needed --noconfirm android-sdk-platform-tools 
     #-----------------fonts------------------------------------
     yay --needed --noconfirm apple-fonts 
@@ -34,7 +32,20 @@ echo '                                                  '
     yay --needed --noconfirm spotify 
     yay --needed --noconfirm brave 
     yay --needed --noconfirm visual-studio-code-bin 
+    yay --needed --noconfirm octave
+    yay --needed --noconfirm webapp-manager
+    yay --needed --noconfirm base devel
 echo '                                                  '
 
-echo '###installing your apps from snap...'
-    snap install gemini 
+echo 'Installing Themes and icons....'
+    #====================themes================================
+    #NORDIC
+
+    mkdir /home/suchinton/.themes
+    cd themes
+    git clone https://github.com/EliverLara/Nordic.git
+
+    yay --needed --noconfirm whitesur-cursor-theme-git 
+    yay --needed --noconfirm whitesur-icon-theme-git 
+
+
