@@ -35,6 +35,11 @@ echo '                                                  '
     paru -S --needed --noconfirm octave
     paru -S --needed --noconfirm webapp-manager
 	paru -S --needed --noconfirm base devel
+
+	#----------------------zsh-stuff--------------------------------
+	paru -S --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
+	paru -S --needed --noconfirm oh-my-zsh-powerline-theme-git
+	paru -S --needed --noconfirm oh-my-zsh-git
 echo '                                                  '
 
 echo 'Installing Themes and icons....'
@@ -42,8 +47,8 @@ echo 'Installing Themes and icons....'
     #NORDIC
 
     mkdir /home/suchinton/.themes
-    cd themes
-    git clone https://github.com/EliverLara/Nordic.git
+    cd /home/suchinton/.themes
+    #git clone https://github.com/EliverLara/Nordic.git
 
     paru -S --needed --noconfirm whitesur-cursor-theme-git 
     paru -S --needed --noconfirm whitesur-icon-theme-git 

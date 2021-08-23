@@ -1,14 +1,14 @@
 [options]
 #https://github.com/thestinger/termite/blob/master/config
 allow_bold = true
-audible_bell = false
+audible_bell = true
 browser = xdg-open
 clickable_url = true
 cursor_blink = system
 cursor_shape = block
 dynamic_title = true
 filter_unmatched_urls = true
-font = Monospace 11
+font = JetBrainsMono Nerd Font Mono Medium 10
 #font = Hack Bold 10
 geometry = 900x650
 highlight = #2f2f2f
