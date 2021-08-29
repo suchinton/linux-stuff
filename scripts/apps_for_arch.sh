@@ -16,7 +16,7 @@ echo '                                                  '
     paru -S --needed --noconfirm xfce4-terminal 
     paru -S --needed --noconfirm termite
     paru -S --needed --noconfirm stacer 
-    paru -S --needed --noconfirm bitwarden                                    
+    #paru -S --needed --noconfirm bitwarden                                    
     paru -S --needed --noconfirm cavapify-git 
     paru -S --needed --noconfirm android-sdk-platform-tools 
     #-----------------fonts------------------------------------
