@@ -35,4 +35,4 @@ alias s='spt'
 alias ccpp='code /home/suchinton/cpp_stuff/'
 
 #alias to repair pacman after time-shift (pacman currently in use)
-alias repair-pacman "rm /var/lib/pacman/db.lck"
+alias repair-pacman "sudo rm /var/lib/pacman/db.lck"
