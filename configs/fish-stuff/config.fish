@@ -34,4 +34,5 @@ alias s='spt'
 #alias to launch vs code in cpp_stuff
 alias ccpp='code /home/suchinton/cpp_stuff/'
 
-
+#alias to repair pacman after time-shift (pacman currently in use)
+alias repair-pacman "rm /var/lib/pacman/db.lck"

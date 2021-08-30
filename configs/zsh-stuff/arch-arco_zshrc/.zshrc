@@ -19,7 +19,7 @@ export ZSH=/usr/share/oh-my-zsh/
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # if you installed the package oh-my-zsh-powerline-theme-git then you type here "powerline" as zsh theme
-ZSH_THEME="powerline"
+ZSH_THEME="apple"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -207,12 +207,13 @@ alias bupskel='cp -Rf /etc/skel ~/.skel-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 #copy /etc/skel/.zshrc over on ~/.zshrc - cb= copy zshrc
 alias cz='sudo cp /etc/skel/.zshrc ~/.zshrc && exec zsh'
 
-#switch between bash and zsh
+#switch between bash and zsh and fish
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tozsh="sudo chsh $USER -s /bin/zsh && echo 'Now log out.'"
+alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 
 #switch between lightdm and sddm
-alias tolightdm="sudo pacman -S lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings --noconfirm --needed ; sudo systemctl enable lightdm.service -f ; echo 'Lightm is active - reboot now'"
+alias togdm="sudo systemctl enable gdm.service -f ; echo 'gdm is active - reboot now'"
 alias tosddm="sudo pacman -S sddm --noconfirm --needed ; sudo systemctl enable sddm.service -f ; echo 'Sddm is active - reboot now'"
 
 #quickly kill conkies
@@ -351,7 +352,7 @@ ex ()
 
 # reporting tools - install when not installed
 # install neofetch
-neofetch --ascii /home/suchinton/linux-stuff/ascii/pizza.txt
+neofetch --ascii /home/suchinton/linux-stuff/ascii/robo.txt
 # install screenfetch
 #screenfetch
 # install ufetch-git
@@ -386,3 +387,6 @@ source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+#alias to repair pacman after time-shift (pacman currently in use)
+alias repair-pacman "rm /var/lib/pacman/db.lck"
