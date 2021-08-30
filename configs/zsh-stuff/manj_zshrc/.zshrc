@@ -390,3 +390,6 @@ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
 
 #alias to repair pacman after time-shift (pacman currently in use)
 alias repair-pacman "rm /var/lib/pacman/db.lck"
+
+#alias to repair pacman after time-shift (pacman currently in use)
+alias repair-pacman "rm /var/lib/pacman/db.lck"
