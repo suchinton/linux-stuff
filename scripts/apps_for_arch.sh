@@ -11,6 +11,7 @@ echo '###installing your applications from repos and AUR...'
 echo '                                                  '
 
     #==================Desktop apps and tools===========================
+    #-------------------------------------------------------------------
     paru -S --needed --noconfirm discord telegram-desktop 
     paru -S --needed --noconfirm stremio
     paru -S --needed --noconfirm stacer 
@@ -27,19 +28,20 @@ echo '                                                  '
                           
 
     #============================fonts===========================
+    #------------------------------------------------------------
     paru -S --needed --noconfirm apple-fonts 
     paru -S --needed --noconfirm ttf-google-sans 
     paru -S --needed --noconfirm nerd-fonts-jetbrains-mono
 
     #===========================Spotify=========================================================================================
-    #__________________________________________________________________________________________________________________________
+    #----------------------------------------------------------------------------------------------------------------------------
         gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
-    #---------------------------------------------------------------------------------------------------------------------------
+    #----------------------------------------------------------------------------------------------------------------------------
     paru -S --needed --noconfirm spotify 
     paru -S --needed --noconfirm spotifyd 
     paru -S --needed --noconfirm spotify-tui-bin 
 
-	#=======================shell-stuff================================
+    #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
     paru -S --needed --noconfirm fish
@@ -53,6 +55,7 @@ echo '                                                  '
     paru -S --needed --noconfirm zsh
 
     #====================Terminal-Apps & tools========================
+    #-----------------------------------------------------------------
     paru -S --needed --noconfirm neofetch 
     paru -S --needed --noconfirm htop 
     paru -S --needed --noconfirm cavapify-git 
@@ -60,13 +63,16 @@ echo '                                                  '
     paru -S --needed --noconfirm ranger 
 
     #=========================Terminal-em================================
+    #--------------------------------------------------------------------
     paru -S --needed --noconfirm xfce4-terminal 
     paru -S --needed --noconfirm termite
 
     #=========================Timeshift==================================
+    #--------------------------------------------------------------------
     paru -S --needed --noconfirm timeshift-autosnap
 
-    #============================. =======================================
+    #============================Misc. ======================================
+    #--------------------------------------------------------------------
     paru -S --needed --noconfirm android-sdk-platform-tools 
     paru -S --needed --noconfirm base devel
     paru -S --needed --noconfirm gnome-menus  
