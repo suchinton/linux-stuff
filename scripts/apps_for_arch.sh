@@ -39,7 +39,8 @@ echo '                                                  '
     paru -S --needed --noconfirm apple-fonts 
     paru -S --needed --noconfirm ttf-google-sans 
     paru -S --needed --noconfirm nerd-fonts-jetbrains-mono
-
+    paru -S --needed --noconfirm ttf-ms-fonts
+    
     #===========================Spotify=========================================================================================
     #----------------------------------------------------------------------------------------------------------------------------
         gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
