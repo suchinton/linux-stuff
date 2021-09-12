@@ -40,3 +40,5 @@ alias repair-pacman "sudo rm /var/lib/pacman/db.lck"
 #alias to launch gnome control center to add accounts for evolution mail
 alias gnome_c_c "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
+#alis to launch gnome tweaks till lxappearance works
+alias gnome_tweaks "env XDG_CURRENT_DESKTOP=GNOME gnome-tweaks"
