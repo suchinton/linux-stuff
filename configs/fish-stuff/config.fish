@@ -36,3 +36,7 @@ alias ccpp='code /home/suchinton/cpp_stuff/'
 
 #alias to repair pacman after time-shift (pacman currently in use)
 alias repair-pacman "sudo rm /var/lib/pacman/db.lck"
+
+#alias to launch gnome control center to add accounts for evolution mail
+alias gnome_c_c "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
+
