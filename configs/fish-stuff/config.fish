@@ -42,3 +42,4 @@ alias gnome_c_c "env XDG_CURRENT_DESKTOP=GNOME gnome-control-center"
 
 #alis to launch gnome tweaks till lxappearance works
 alias gnome_tweaks "env XDG_CURRENT_DESKTOP=GNOME gnome-tweaks"
+
