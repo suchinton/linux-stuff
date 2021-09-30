@@ -1,11 +1,11 @@
 #!/bin/bash
-=====================================================                                                       
-   _____     __  __     ______     __  __     __    
- /\  ___\   /\ \/\ \   /\  ___\   /\ \_\ \   /\ \    
- \ \___  \  \ \ \_\ \  \ \ \____  \ \  __ \  \ \ \   
-  \/\_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\  
-   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/  
-=====================================================            
+#=====================================================                                                       
+#   _____     __  __     ______     __  __     __    
+# /\  ___\   /\ \/\ \   /\  ___\   /\ \_\ \   /\ \    
+# \ \___  \  \ \ \_\ \  \ \ \____  \ \  __ \  \ \ \   
+#  \/\_____\  \ \_____\  \ \_____\  \ \_\ \_\  \ \_\  
+#   \/_____/   \/_____/   \/_____/   \/_/\/_/   \/_/  
+#=====================================================            
 
 #checking for updates
 
@@ -19,7 +19,8 @@ echo '                                                  '
 
     #==================Desktop apps and tools===========================
     #-------------------------------------------------------------------
-    paru -S --needed --noconfirm discord telegram-desktop 
+    paru -S --needed --noconfirm discord 
+    paru -S --needed --noconfirm telegram-desktop 
     paru -S --needed --noconfirm stremio
     paru -S --needed --noconfirm stacer 
     paru -S --needed --noconfirm bitwarden          
@@ -27,7 +28,7 @@ echo '                                                  '
     paru -S --needed --noconfirm visual-studio-code-bin 
     paru -S --needed --noconfirm octave
     paru -S --needed --noconfirm webapp-manager    
-    paru -S --needed --noconfirm qtwaw
+    paru -S --needed --noconfirm whatsapp-for-linux
     paru -S --needed --noconfirm evolution && evolution-ews
     paru -S --needed --noconfirm onlyoffice
     paru -S --needed --noconfirm blanket
@@ -52,15 +53,15 @@ echo '                                                  '
     #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
-    paru -S --needed --noconfirm fish
+    #paru -S --needed --noconfirm fish
 	
     #------------------------zsh--------------------------------------
-    paru -S --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
-	paru -S --needed --noconfirm oh-my-zsh-powerline-theme-git
-	paru -S --needed --noconfirm oh-my-zsh-git
-    paru -S --needed --noconfirm zsh-syntax-highlighting
-    paru -S --needed --noconfirm powerline
-    paru -S --needed --noconfirm zsh
+    #paru -S --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
+    #paru -S --needed --noconfirm oh-my-zsh-powerline-theme-git
+    #paru -S --needed --noconfirm oh-my-zsh-git
+    #paru -S --needed --noconfirm zsh-syntax-highlighting
+    #paru -S --needed --noconfirm powerline
+    #paru -S --needed --noconfirm zsh
 
     #====================Terminal-Apps & tools========================
     #-----------------------------------------------------------------
@@ -72,7 +73,7 @@ echo '                                                  '
 
     #=========================Terminal-em================================
     #--------------------------------------------------------------------
-    paru -S --needed --noconfirm xfce4-terminal 
+    #paru -S --needed --noconfirm xfce4-terminal 
     paru -S --needed --noconfirm termite
 
     #=========================Timeshift==================================
