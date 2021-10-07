@@ -46,7 +46,7 @@ echo '                                                  '
     #----------------------------------------------------------------------------------------------------------------------------
         gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
     #----------------------------------------------------------------------------------------------------------------------------
-    paru -S --needed --noconfirm spotify 
+    paru -S --needed --noconfirm spotify dev 
     paru -S --needed --noconfirm spotifyd 
     paru -S --needed --noconfirm spotify-tui-bin 
 
@@ -54,7 +54,8 @@ echo '                                                  '
 
     #------------------------fish-------------------------------------
     #paru -S --needed --noconfirm fish
-	
+    #chsh -s `which fish`
+    #curl -L https://get.oh-my.fish | fish	
     #------------------------zsh--------------------------------------
     #paru -S --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
     #paru -S --needed --noconfirm oh-my-zsh-powerline-theme-git
@@ -92,7 +93,9 @@ echo 'Installing Themes and icons....'
     #====================themes================================
     #NORDIC
 
-    mkdir /home/suchinton/.themes
+    #mkdir /home/suchinton/.themes
+    #mkdir /home/suchinton/.icons
+
     #cd /home/suchinton/.themes
     #git clone https://github.com/EliverLara/Nordic.git
 
