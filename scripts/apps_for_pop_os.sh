@@ -11,9 +11,9 @@
 
 echo '### updating...'
 	sudo apt update
-	sudo apt full-upgrade
-	sudo apt install snapd
-	sudo apt install flatpak
+	//sudo apt full-upgrade
+	//sudo apt install snapd
+	//sudo apt install flatpak
 #install all applications 
 
 echo '### Installing RestrictedFormats...'
