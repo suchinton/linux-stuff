@@ -10,7 +10,7 @@
 #checking for updates
 
 echo '### updating...'
-    sudo paru -Syu
+    paru -Syu
 
 #install all applications 
 
@@ -28,11 +28,11 @@ echo '                                                  '
     paru -S --needed --noconfirm visual-studio-code-bin 
     paru -S --needed --noconfirm octave
     paru -S --needed --noconfirm webapp-manager    
-    paru -S --needed --noconfirm whatsapp-for-linux
+    #paru -S --needed --noconfirm whatsapp-for-linux
     paru -S --needed --noconfirm evolution && evolution-ews
     paru -S --needed --noconfirm onlyoffice
     paru -S --needed --noconfirm blanket
-    paru -S --needed --noconfirm baobab
+    #paru -S --needed --noconfirm baobab
                           
 
     #============================fonts===========================
@@ -75,7 +75,7 @@ echo '                                                  '
     #=========================Terminal-em================================
     #--------------------------------------------------------------------
     #paru -S --needed --noconfirm xfce4-terminal 
-    paru -S --needed --noconfirm termite
+    #paru -S --needed --noconfirm termite
 
     #=========================Timeshift==================================
     #--------------------------------------------------------------------
