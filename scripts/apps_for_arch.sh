@@ -19,20 +19,20 @@ echo '                                                  '
 
     #==================Desktop apps and tools===========================
     #-------------------------------------------------------------------
-    paru -S --needed --noconfirm discord 
+    #paru -S --needed --noconfirm discord 
     paru -S --needed --noconfirm telegram-desktop 
     paru -S --needed --noconfirm stremio
-    paru -S --needed --noconfirm stacer 
+    #paru -S --needed --noconfirm stacer 
     paru -S --needed --noconfirm bitwarden          
-    paru -S --needed --noconfirm brave-bin 
+    #paru -S --needed --noconfirm brave-bin 
     paru -S --needed --noconfirm visual-studio-code-bin 
-    paru -S --needed --noconfirm octave
+    #paru -S --needed --noconfirm octave
     paru -S --needed --noconfirm webapp-manager    
     #paru -S --needed --noconfirm whatsapp-for-linux
     paru -S --needed --noconfirm evolution && evolution-ews
     paru -S --needed --noconfirm onlyoffice
     paru -S --needed --noconfirm blanket
-    #paru -S --needed --noconfirm baobab
+    paru -S --needed --noconfirm baobab
                           
 
     #============================fonts===========================
@@ -44,11 +44,11 @@ echo '                                                  '
     
     #===========================Spotify=========================================================================================
     #----------------------------------------------------------------------------------------------------------------------------
-        gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
+        #gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
     #----------------------------------------------------------------------------------------------------------------------------
     paru -S --needed --noconfirm spotify dev 
-    paru -S --needed --noconfirm spotifyd 
-    paru -S --needed --noconfirm spotify-tui-bin 
+    #paru -S --needed --noconfirm spotifyd 
+    #paru -S --needed --noconfirm spotify-tui-bin 
 
     #=======================shell-stuff================================
 
@@ -83,7 +83,7 @@ echo '                                                  '
 
     #============================Misc. ======================================
     #--------------------------------------------------------------------
-    paru -S --needed --noconfirm android-sdk-platform-tools 
+    #paru -S --needed --noconfirm android-sdk-platform-tools 
     paru -S --needed --noconfirm base devel
     paru -S --needed --noconfirm gnome-menus  
 
