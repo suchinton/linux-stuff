@@ -10,7 +10,7 @@
 #checking for updates
 
 echo '### updating...'
-    paru -Syu
+    yay
 
 #install all applications 
 
@@ -19,73 +19,73 @@ echo '                                                  '
 
     #==================Desktop apps and tools===========================
     #-------------------------------------------------------------------
-    #paru -S --needed --noconfirm discord 
-    paru -S --needed --noconfirm telegram-desktop 
-    paru -S --needed --noconfirm stremio
-    #paru -S --needed --noconfirm stacer 
-    paru -S --needed --noconfirm bitwarden          
-    #paru -S --needed --noconfirm brave-bin 
-    paru -S --needed --noconfirm visual-studio-code-bin 
-    #paru -S --needed --noconfirm octave
-    paru -S --needed --noconfirm webapp-manager    
-    #paru -S --needed --noconfirm whatsapp-for-linux
-    paru -S --needed --noconfirm evolution && evolution-ews
-    paru -S --needed --noconfirm onlyoffice
-    paru -S --needed --noconfirm blanket
-    paru -S --needed --noconfirm baobab
+    yay --needed --noconfirm discord 
+    yay --needed --noconfirm telegram-desktop 
+    yay --needed --noconfirm stremio
+    #yay --needed --noconfirm stacer 
+    yay --needed --noconfirm bitwarden          
+    #yay --needed --noconfirm brave-bin 
+    yay --needed --noconfirm visual-studio-code-bin 
+    #yay --needed --noconfirm octave
+    yay --needed --noconfirm webapp-manager    
+    #yay --needed --noconfirm whatsapp-for-linux
+    #yay --needed --noconfirm evolution && evolution-ews
+    yay --needed --noconfirm onlyoffice
+    yay --needed --noconfirm blanket
+    #yay --needed --noconfirm baobab
                           
 
     #============================fonts===========================
     #------------------------------------------------------------
-    paru -S --needed --noconfirm apple-fonts 
-    paru -S --needed --noconfirm ttf-google-sans 
-    paru -S --needed --noconfirm nerd-fonts-jetbrains-mono
-    paru -S --needed --noconfirm ttf-ms-fonts
+    yay --needed --noconfirm apple-fonts 
+    yay --needed --noconfirm ttf-google-sans 
+    yay --needed --noconfirm nerd-fonts-jetbrains-mono
+    yay --needed --noconfirm ttf-ms-fonts
     
     #===========================Spotify=========================================================================================
     #----------------------------------------------------------------------------------------------------------------------------
         #gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
     #----------------------------------------------------------------------------------------------------------------------------
-    paru -S --needed --noconfirm spotify dev 
-    #paru -S --needed --noconfirm spotifyd 
-    #paru -S --needed --noconfirm spotify-tui-bin 
+    yay --needed --noconfirm spotify dev 
+    #yay --needed --noconfirm spotifyd 
+    #yay --needed --noconfirm spotify-tui-bin 
 
     #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
-    #paru -S --needed --noconfirm fish
+    #yay --needed --noconfirm fish
     #chsh -s `which fish`
     #curl -L https://get.oh-my.fish | fish	
     #------------------------zsh--------------------------------------
-    #paru -S --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
-    #paru -S --needed --noconfirm oh-my-zsh-powerline-theme-git
-    #paru -S --needed --noconfirm oh-my-zsh-git
-    #paru -S --needed --noconfirm zsh-syntax-highlighting
-    #paru -S --needed --noconfirm powerline
-    #paru -S --needed --noconfirm zsh
+    #yay --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
+    #yay --needed --noconfirm oh-my-zsh-powerline-theme-git
+    #yay --needed --noconfirm oh-my-zsh-git
+    #yay --needed --noconfirm zsh-syntax-highlighting
+    #yay --needed --noconfirm powerline
+    #yay --needed --noconfirm zsh
 
     #====================Terminal-Apps & tools========================
     #-----------------------------------------------------------------
-    paru -S --needed --noconfirm neofetch 
-    paru -S --needed --noconfirm htop 
-    paru -S --needed --noconfirm cavapify-git 
-    paru -S --needed --noconfirm android-sdk-platform-tools 
-    paru -S --needed --noconfirm ranger 
+    yay --needed --noconfirm neofetch 
+    yay --needed --noconfirm htop 
+    yay --needed --noconfirm cavapify-git 
+    yay --needed --noconfirm android-sdk-platform-tools 
+    yay --needed --noconfirm ranger 
 
     #=========================Terminal-em================================
     #--------------------------------------------------------------------
-    #paru -S --needed --noconfirm xfce4-terminal 
-    #paru -S --needed --noconfirm termite
+    #yay --needed --noconfirm xfce4-terminal 
+    #yay --needed --noconfirm termite
 
     #=========================Timeshift==================================
     #--------------------------------------------------------------------
-    paru -S --needed --noconfirm timeshift-autosnap
+    yay --needed --noconfirm timeshift-autosnap
 
     #============================Misc. ======================================
     #--------------------------------------------------------------------
-    #paru -S --needed --noconfirm android-sdk-platform-tools 
-    paru -S --needed --noconfirm base devel
-    paru -S --needed --noconfirm gnome-menus  
+    #yay --needed --noconfirm android-sdk-platform-tools 
+    yay --needed --noconfirm base devel
+    yay --needed --noconfirm gnome-menus  
 
 echo '                                                  '
 
@@ -93,11 +93,11 @@ echo 'Installing Themes and icons....'
     #====================themes================================
     #NORDIC
 
-    #mkdir /home/suchinton/.themes
-    #mkdir /home/suchinton/.icons
+    mkdir /home/suchinton/.themes
+    mkdir /home/suchinton/.icons
 
     #cd /home/suchinton/.themes
     #git clone https://github.com/EliverLara/Nordic.git
 
-    paru -S --needed --noconfirm whitesur-cursor-theme-git 
-    paru -S --needed --noconfirm whitesur-icon-theme-git 
+    yay --needed --noconfirm whitesur-cursor-theme-git 
+    yay --needed --noconfirm whitesur-icon-theme-git 
