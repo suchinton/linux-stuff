@@ -33,29 +33,32 @@ echo '                                                  '
     yay --needed --noconfirm onlyoffice
     yay --needed --noconfirm blanket
     #yay --needed --noconfirm baobab
+    yay --needed --noconfirm openrgb
+    yay --needed --noconfirm komikku
+    yay --needed --noconfirm flowblade
                           
 
     #============================fonts===========================
     #------------------------------------------------------------
     yay --needed --noconfirm apple-fonts 
     yay --needed --noconfirm ttf-google-sans 
-    yay --needed --noconfirm nerd-fonts-jetbrains-mono
+    yay --needed --noconfirm ttf-jetbrains-mono
     yay --needed --noconfirm ttf-ms-fonts
     
     #===========================Spotify=========================================================================================
     #----------------------------------------------------------------------------------------------------------------------------
         #gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
     #----------------------------------------------------------------------------------------------------------------------------
-    yay --needed --noconfirm spotify dev 
+    yay --needed --noconfirm spotify 
     #yay --needed --noconfirm spotifyd 
-    #yay --needed --noconfirm spotify-tui-bin 
+    #yay --needed --noconfirm spotify-tui 
 
     #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
     #yay --needed --noconfirm fish
     #chsh -s `which fish`
-    #curl -L https://get.oh-my.fish | fish	
+    #curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
     #------------------------zsh--------------------------------------
     #yay --needed --noconfirm oh-my-zsh-plugin-sutosuggestions
     #yay --needed --noconfirm oh-my-zsh-powerline-theme-git
@@ -69,7 +72,8 @@ echo '                                                  '
     yay --needed --noconfirm neofetch 
     yay --needed --noconfirm htop 
     yay --needed --noconfirm cavapify-git 
-    yay --needed --noconfirm android-sdk-platform-tools 
+    yay --needed --noconfirm android-sdk-platform-tools
+    yay --needed --noconfirm android-tools 
     yay --needed --noconfirm ranger 
 
     #=========================Terminal-em================================
@@ -83,7 +87,6 @@ echo '                                                  '
 
     #============================Misc. ======================================
     #--------------------------------------------------------------------
-    #yay --needed --noconfirm android-sdk-platform-tools 
     yay --needed --noconfirm base devel
     yay --needed --noconfirm gnome-menus  
 
