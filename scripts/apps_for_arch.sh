@@ -72,7 +72,7 @@ echo '                                                  '
     yay --needed --noconfirm neofetch 
     yay --needed --noconfirm htop 
     yay --needed --noconfirm cavapify-git 
-    yay --needed --noconfirm android-sdk-platform-tools
+    #yay --needed --noconfirm android-sdk-platform-tools
     yay --needed --noconfirm android-tools 
     yay --needed --noconfirm ranger 
 
@@ -83,7 +83,7 @@ echo '                                                  '
 
     #=========================Timeshift==================================
     #--------------------------------------------------------------------
-    yay --needed --noconfirm timeshift-autosnap
+    #yay --needed --noconfirm timeshift-autosnap
 
     #============================Misc. ======================================
     #--------------------------------------------------------------------
