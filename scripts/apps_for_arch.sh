@@ -31,11 +31,11 @@ echo '                                                  '
     #yay --needed --noconfirm whatsapp-for-linux
     #yay --needed --noconfirm evolution && evolution-ews
     yay --needed --noconfirm onlyoffice
-    yay --needed --noconfirm blanket
+    #yay --needed --noconfirm blanket
     #yay --needed --noconfirm baobab
     yay --needed --noconfirm openrgb
     yay --needed --noconfirm komikku
-    yay --needed --noconfirm flowblade
+    #yay --needed --noconfirm flowblade
                           
 
     #============================fonts===========================
