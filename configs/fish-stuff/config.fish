@@ -2,7 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-neofetch --ascii /home/suchinton/linux-stuff/ascii/robo.txt
+fish_add_path -g -P ~/flutter/bin
+
+#neofetch --ascii /home/suchinton/linux-stuff/ascii/robo.txt
+neofetch --ascii_distro fedora_small
+
+alias set_flatpak_theme='sudo flatpak override --filesystem=$HOME/.themes & read name & sudo flatpak override --env=GTK_THEME=$name'
 
 #switch between bash and zsh and fish
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
@@ -12,12 +17,10 @@ alias tofish="sudo chsh $USER -s /bin/fish && echo 'Now log out.'"
 #fix obvious typo's
 alias cd..='cd ..'
 alias pdw="pwd"
-alias udpate='sudo pacman -Syyu'
-alias upate='sudo pacman -Syyu'
-alias updte='sudo pacman -Syyu'
-alias updqte='sudo pacman -Syyu'
-alias upqll="paru -Syu --noconfirm"
-alias upal="paru -Syu --noconfirm"
+alias udpate='sudo dnf update'
+alias upate='sudo dnf update'
+alias updte='sudo dnf update'
+alias update='sudo dnf update'
 
 #alias to get to /home/suchinton/
 alias home='cd /home/suchinton/'
