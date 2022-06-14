@@ -19,21 +19,21 @@ echo '                                                  '
 
     #==================Desktop apps and tools===========================
     #-------------------------------------------------------------------
-    yay --needed --noconfirm discord 
-    yay --needed --noconfirm telegram-desktop 
-    yay --needed --noconfirm stremio
+    #yay --needed --noconfirm discord 
+    #yay --needed --noconfirm telegram-desktop 
+    #yay --needed --noconfirm stremio
     #yay --needed --noconfirm stacer 
-    yay --needed --noconfirm bitwarden          
+    #yay --needed --noconfirm bitwarden          
     #yay --needed --noconfirm brave-bin 
     yay --needed --noconfirm visual-studio-code-bin 
     #yay --needed --noconfirm octave
     yay --needed --noconfirm webapp-manager    
     #yay --needed --noconfirm whatsapp-for-linux
     #yay --needed --noconfirm evolution && evolution-ews
-    yay --needed --noconfirm onlyoffice
+    #yay --needed --noconfirm onlyoffice
     #yay --needed --noconfirm blanket
     #yay --needed --noconfirm baobab
-    yay --needed --noconfirm openrgb
+    #yay --needed --noconfirm openrgb
     yay --needed --noconfirm komikku
     #yay --needed --noconfirm flowblade
                           
@@ -56,7 +56,7 @@ echo '                                                  '
     #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
-    #yay --needed --noconfirm fish
+    yay --needed --noconfirm fish
     #chsh -s `which fish`
     #curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
     #------------------------zsh--------------------------------------
@@ -71,15 +71,16 @@ echo '                                                  '
     #-----------------------------------------------------------------
     yay --needed --noconfirm neofetch 
     yay --needed --noconfirm htop 
-    yay --needed --noconfirm cavapify-git 
+    yay --needed --noconfirm cava 
     #yay --needed --noconfirm android-sdk-platform-tools
     yay --needed --noconfirm android-tools 
     yay --needed --noconfirm ranger 
-
+    yay --needed --noconfirm polybar
+    
     #=========================Terminal-em================================
     #--------------------------------------------------------------------
-    #yay --needed --noconfirm xfce4-terminal 
-    #yay --needed --noconfirm termite
+    yay --needed --noconfirm xfce4-terminal 
+    yay --needed --noconfirm alacritty
 
     #=========================Timeshift==================================
     #--------------------------------------------------------------------
