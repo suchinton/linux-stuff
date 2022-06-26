@@ -25,7 +25,7 @@ echo '                                                  '
     #yay --needed --noconfirm stacer 
     #yay --needed --noconfirm bitwarden          
     #yay --needed --noconfirm brave-bin 
-    yay --needed --noconfirm visual-studio-code-bin 
+    #yay --needed --noconfirm visual-studio-code-bin 
     #yay --needed --noconfirm octave
     yay --needed --noconfirm webapp-manager    
     #yay --needed --noconfirm whatsapp-for-linux
@@ -49,14 +49,14 @@ echo '                                                  '
     #----------------------------------------------------------------------------------------------------------------------------
         #gpg --keyserver keyserver.ubuntu.com --recv-key 8FD3D9A8D3800305A9FFF259D1742AD60D811D58 # used to import key for spotify.
     #----------------------------------------------------------------------------------------------------------------------------
-    yay --needed --noconfirm spotify 
+    #yay --needed --noconfirm spotify 
     #yay --needed --noconfirm spotifyd 
     #yay --needed --noconfirm spotify-tui 
 
     #=======================shell-stuff================================
 
     #------------------------fish-------------------------------------
-    yay --needed --noconfirm fish
+    3yay --needed --noconfirm fish
     #chsh -s `which fish`
     #curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
     #------------------------zsh--------------------------------------
@@ -75,12 +75,12 @@ echo '                                                  '
     #yay --needed --noconfirm android-sdk-platform-tools
     yay --needed --noconfirm android-tools 
     yay --needed --noconfirm ranger 
-    yay --needed --noconfirm polybar
+    #yay --needed --noconfirm polybar
     
     #=========================Terminal-em================================
     #--------------------------------------------------------------------
     yay --needed --noconfirm xfce4-terminal 
-    yay --needed --noconfirm alacritty
+    #yay --needed --noconfirm alacritty
 
     #=========================Timeshift==================================
     #--------------------------------------------------------------------
@@ -88,8 +88,8 @@ echo '                                                  '
 
     #============================Misc. ======================================
     #--------------------------------------------------------------------
-    yay --needed --noconfirm base devel
-    yay --needed --noconfirm gnome-menus  
+    #yay --needed --noconfirm base devel
+    #yay --needed --noconfirm gnome-menus  
 
 echo '                                                  '
 
