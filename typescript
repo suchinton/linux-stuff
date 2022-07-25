@@ -1,218 +1,0 @@
-Script started on 2021-08-23 13:51:23+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="100" LINES="30"]
-[?25l[?7l[38;5;11m[1m                    /-
-                   ooo:
-                  yoooo/
-                 yooooooo
-                yooooooooo
-               yooooooooooo
-             .yooooooooooooo
-            .oooooooooooooooo
-           .oooooooarcoooooooo
-          .ooooooooo-oooooooooo
-         .ooooooooo-  oooooooooo
-        :ooooooooo.    :ooooooooo
-       :ooooooooo.      :ooooooooo
-      :oooarcooo         .oooarcooo
-     :ooooooooy           .ooooooooo
-    :ooooooooo   [0m[31m[1m/ooooooooooooooooooo[38;5;11m[1m
-   :ooooooooo      [0m[31m[1m.-ooooooooooooooooo.[38;5;11m[1m
-  ooooooooo-             [0m[31m[1m-ooooooooooooo.[38;5;11m[1m
- ooooooooo-                 [0m[31m[1m.-oooooooooo.[38;5;11m[1m
-ooooooooo.                     [0m[31m[1m-ooooooooo[38;5;11m[1m[0m
-[20A[9999999D[44C[37m[0m[1m[38;5;11m[1msuchinton[38;5;11m@[38;5;11m[1m[0m 
-[44C[38;5;11m==========[0m 
-[44C[38;5;11m[1mOS[0m[38;5;11m ~> [37m[0m ArcoLinux[0m 
-[44C[38;5;11m[1mPackages[0m[38;5;11m ~> [37m[0m 1234 (pacman)[0m 
-[44C[38;5;11m[1mDE[0m[38;5;11m ~> [37m[0m GNOME 40.4[0m 
-[44C[38;5;11m[1mCPU[0m[38;5;11m ~> [37m[0m Intel i3-6006U (4) @ 2.000GHz [45.0°on][0m 
-[44C[38;5;11m[1mGPU[0m[38;5;11m ~> [37m[0m Intel Skylake GT2 [HD Graphics 520][0m 
-[44C[38;5;11m[1mSong[0m[38;5;11m ~> [37m[0m Unknown Artist - Unknown Song[0m 
-[44C[38;5;11m[1mMusic Player[0m[38;5;11m ~> [37m[0m spotify[0m 
-
-[44C[30m[40m   [31m[41m   [32m[42m   [33m[43m   [34m[44m   [35m[45m   [36m[46m   [37m[47m   [m
-[44C[38;5;8m[48;5;8m   [38;5;9m[48;5;9m   [38;5;10m[48;5;10m   [38;5;11m[48;5;11m   [38;5;12m[48;5;12m   [38;5;13m[48;5;13m   [38;5;14m[48;5;14m   [38;5;15m[48;5;15m   [m
-
-
-
-
-
-
-
-
-
-[?25h[?7h]0;suchinton@suchinton-ArcoLinux:~/linux-stuff[?2004h[suchinton@suchinton-ArcoLinux linux-stuff]$ scr[K[K[K/s[K[Kcd scripts/
-[?2004l]0;suchinton@suchinton-ArcoLinux:~/linux-stuff/scripts[?2004h[suchinton@suchinton-ArcoLinux scripts]$ ls
-[?2004lapps_for_arch.sh     dark_theme_spt.sh  install_spicetify.sh  start_spotifyd.sh
-apps_for_manjaro.sh  enable_ssdtrim.sh  light_theme_spt.sh    stop_spotifyd.sh
-]0;suchinton@suchinton-ArcoLinux:~/linux-stuff/scripts[?2004h[suchinton@suchinton-ArcoLinux scripts]$ bash ./apps_for_arch.sh 
-[?2004l### updating...
-[sudo] password for suchinton: 
-[?25l[1;34m::[0;1m Synchronizing package databases...
-[0m arcolinux_repo
- arcolinux_repo_3party
- arcolinux_repo_xlarge
- core
- extra
-[2F core is up to date[K[1E extra is up to date[K[1E community
- multilib
-[2F community                        43.0 KiB  76.0   B/s --:-- [[1;33mc[m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m]   0%[1E multilib is up to date[K[1F community                         3.5 MiB  5.68 MiB/s 00:00 [-------------------[1;33mC[m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m[0;37mo[m[0;37m [m[0;37m [m]  61% community                         5.7 MiB  14.6 MiB/s 00:00 [--------------------------------] 100%[5F arcolinux_repo is up to date[K[1E arcolinux_repo_3party is up to date[K[1E arcolinux_repo_xlarge is up to date[K[5E[1;34m::[0;1m Starting full system upgrade...
-[0m there is nothing to do
-[?25h[1;34m::[0m [1mLooking for AUR upgrades[0m
- there is nothing to do
-###installing your applications from repos and AUR...
-                                                  
-[1;33mwarning: [0mdiscord-0.0.15-1 is up to date -- skipping
-[1;33mwarning: [0mtelegram-desktop-2.9.3-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mspotifyd-0.3.2-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mneofetch-7.1.0-2 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mhtop-3.0.5-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mxfce4-terminal-0.8.10-2 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mtermite-15-7 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mstacer-1.1.0-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mbitwarden-bin-1.28.1-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;34m::[0m [1mResolving dependencies...[0m
-[1;34m::[0m [1mCalculating conflicts...[0m
-[1;34m::[0m [1mCalculating inner conflicts...[0m
-
-[1mAur (1) [0mcavapify-git-r15.a2d3160-4
-
-[1;34m::[0m [1mProceed with installation?[0m [1m[Y/n]:[0m 
-
-[1;34m::[0m [1mDownloading PKGBUILDs...[0m
- PKGBUILDs up to date
-[1m[32m==>(B[m[1m Making package: cavapify-git r18.fb9c727-1 (Monday 23 August 2021 01:52:13 PM)(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B[m
-[1m[34m  ->(B[m[1m Updating cavapify git repo...(B[m
-Fetching origin
-[1m[32m==>(B[m[1m Validating source files with md5sums...(B[m
-    cavapify ... Skipped
-[1m[32m==>(B[m[1m Making package: cavapify-git r18.fb9c727-1 (Monday 23 August 2021 01:52:16 PM)(B[m
-[1m[32m==>(B[m[1m Checking runtime dependencies...(B[m
-[1m[32m==>(B[m[1m Checking buildtime dependencies...(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B[m
-[1m[34m  ->(B[m[1m Updating cavapify git repo...(B[m
-Fetching origin
-[1m[32m==>(B[m[1m Validating source files with md5sums...(B[m
-    cavapify ... Skipped
-[1m[32m==>(B[m[1m Removing existing $srcdir/ directory...(B[m
-[1m[32m==>(B[m[1m Extracting sources...(B[m
-[1m[34m  ->(B[m[1m Creating working copy of cavapify git repo...(B[m
-Cloning into 'cavapify'...
-done.
-[1m[32m==>(B[m[1m Starting pkgver()...(B[m
-[1m[32m==>(B[m[1m Sources are ready.(B[m
-cavapify-git-r15.a2d3160-4: parsing pkg list...
-[33m::[0m cavapify-git-r15.a2d3160-4 is up to date -- skipping
-[33m::[0m cavapify-git-r15.a2d3160-4 is up to date -- skipping build
-[33m::[0m cavapify-git-r15.a2d3160-4 is up to date -- skipping install
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m android-sdk-platform-tools-31.0.3-1 is up to date -- skipping
- there is nothing to do
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m apple-fonts-1.0.1-1 is up to date -- skipping
- there is nothing to do
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m ttf-google-sans-1-2 is up to date -- skipping
- there is nothing to do
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m nerd-fonts-jetbrains-mono-2.1.0-3 is up to date -- skipping
- there is nothing to do
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m stremio-4.4.142-1 is up to date -- skipping
- there is nothing to do
-[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m spotify-tui-bin-0.24.0-1 is up to date -- skipping
- there is nothing to do
-gpg: key D1742AD60D811D58: "Spotify Public Repository Signing Key <tux@spotify.com>" not changed
-gpg: Total number processed: 1
-gpg:              unchanged: 1
-[1;33mwarning: [0mspotify-1:1.1.56.595-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mbrave-bin-1:1.28.106-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0mvisual-studio-code-bin-1.59.1-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;33mwarning: [0moctave-6.3.0-1 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;34m::[0m [1mResolving dependencies...[0m
-[33m::[0m webapp-manager-1.1.5-3 is up to date -- skipping
- there is nothing to do
-[1;33mwarning: [0mbase-2-2 is up to date -- skipping
-[?25l there is nothing to do
-[?25h[1;34m::[0m [1mResolving dependencies...[0m
-[31merror:[0m could not find all required packages:
-    [31mdevel[0m (target)
-                                                  
-Installing Themes and icons....
-mkdir: cannot create directory ‘/home/suchinton/.themes’: File exists
-./apps_for_arch.sh: line 45: cd: themes: No such file or directory
-Cloning into 'Nordic'...
-remote: Enumerating objects: 3916, done.[K
-remote: Counting objects:   0% (1/544)[Kremote: Counting objects:   1% (6/544)[Kremote: Counting objects:   2% (11/544)[Kremote: Counting objects:   3% (17/544)[Kremote: Counting objects:   4% (22/544)[Kremote: Counting objects:   5% (28/544)[Kremote: Counting objects:   6% (33/544)[Kremote: Counting objects:   7% (39/544)[Kremote: Counting objects:   8% (44/544)[Kremote: Counting objects:   9% (49/544)[Kremote: Counting objects:  10% (55/544)[Kremote: Counting objects:  11% (60/544)[Kremote: Counting objects:  12% (66/544)[Kremote: Counting objects:  13% (71/544)[Kremote: Counting objects:  14% (77/544)[Kremote: Counting objects:  15% (82/544)[Kremote: Counting objects:  16% (88/544)[Kremote: Counting objects:  17% (93/544)[Kremote: Counting objects:  18% (98/544)[Kremote: Counting objects:  19% (104/544)[Kremote: Counting objects:  20% (109/544)[Kremote: Counting objects:  21% (115/544)[Kremote: Counting objects:  22% (120/544)[Kremote: Counting objects:  23% (126/544)[Kremote: Counting objects:  24% (131/544)[Kremote: Counting objects:  25% (136/544)[Kremote: Counting objects:  26% (142/544)[Kremote: Counting objects:  27% (147/544)[Kremote: Counting objects:  28% (153/544)[Kremote: Counting objects:  29% (158/544)[Kremote: Counting objects:  30% (164/544)[Kremote: Counting objects:  31% (169/544)[Kremote: Counting objects:  32% (175/544)[Kremote: Counting objects:  33% (180/544)[Kremote: Counting objects:  34% (185/544)[Kremote: Counting objects:  35% (191/544)[Kremote: Counting objects:  36% (196/544)[Kremote: Counting objects:  37% (202/544)[Kremote: Counting objects:  38% (207/544)[Kremote: Counting objects:  39% (213/544)[Kremote: Counting objects:  40% (218/544)[Kremote: Counting objects:  41% (224/544)[Kremote: Counting objects:  42% (229/544)[Kremote: Counting objects:  43% (234/544)[Kremote: Counting objects:  44% (240/544)[Kremote: Counting objects:  45% (245/544)[Kremote: Counting objects:  46% (251/544)[Kremote: Counting objects:  47% (256/544)[Kremote: Counting objects:  48% (262/544)[Kremote: Counting objects:  49% (267/544)[Kremote: Counting objects:  50% (272/544)[Kremote: Counting objects:  51% (278/544)[Kremote: Counting objects:  52% (283/544)[Kremote: Counting objects:  53% (289/544)[Kremote: Counting objects:  54% (294/544)[Kremote: Counting objects:  55% (300/544)[Kremote: Counting objects:  56% (305/544)[Kremote: Counting objects:  57% (311/544)[Kremote: Counting objects:  58% (316/544)[Kremote: Counting objects:  59% (321/544)[Kremote: Counting objects:  60% (327/544)[Kremote: Counting objects:  61% (332/544)[Kremote: Counting objects:  62% (338/544)[Kremote: Counting objects:  63% (343/544)[Kremote: Counting objects:  64% (349/544)[Kremote: Counting objects:  65% (354/544)[Kremote: Counting objects:  66% (360/544)[Kremote: Counting objects:  67% (365/544)[Kremote: Counting objects:  68% (370/544)[Kremote: Counting objects:  69% (376/544)[Kremote: Counting objects:  70% (381/544)[Kremote: Counting objects:  71% (387/544)[Kremote: Counting objects:  72% (392/544)[Kremote: Counting objects:  73% (398/544)[Kremote: Counting objects:  74% (403/544)[Kremote: Counting objects:  75% (408/544)[Kremote: Counting objects:  76% (414/544)[Kremote: Counting objects:  77% (419/544)[Kremote: Counting objects:  78% (425/544)[Kremote: Counting objects:  79% (430/544)[Kremote: Counting objects:  80% (436/544)[Kremote: Counting objects:  81% (441/544)[Kremote: Counting objects:  82% (447/544)[Kremote: Counting objects:  83% (452/544)[Kremote: Counting objects:  84% (457/544)[Kremote: Counting objects:  85% (463/544)[Kremote: Counting objects:  86% (468/544)[Kremote: Counting objects:  87% (474/544)[Kremote: Counting objects:  88% (479/544)[Kremote: Counting objects:  89% (485/544)[Kremote: Counting objects:  90% (490/544)[Kremote: Counting objects:  91% (496/544)[Kremote: Counting objects:  92% (501/544)[Kremote: Counting objects:  93% (506/544)[Kremote: Counting objects:  94% (512/544)[Kremote: Counting objects:  95% (517/544)[Kremote: Counting objects:  96% (523/544)[Kremote: Counting objects:  97% (528/544)[Kremote: Counting objects:  98% (534/544)[Kremote: Counting objects:  99% (539/544)[Kremote: Counting objects: 100% (544/544)[Kremote: Counting objects: 100% (544/544), done.[K
-remote: Compressing objects:   0% (1/374)[Kremote: Compressing objects:   1% (4/374)[Kremote: Compressing objects:   2% (8/374)[Kremote: Compressing objects:   3% (12/374)[Kremote: Compressing objects:   4% (15/374)[Kremote: Compressing objects:   5% (19/374)[Kremote: Compressing objects:   6% (23/374)[Kremote: Compressing objects:   7% (27/374)[Kremote: Compressing objects:   8% (30/374)[Kremote: Compressing objects:   9% (34/374)[Kremote: Compressing objects:  10% (38/374)[Kremote: Compressing objects:  11% (42/374)[Kremote: Compressing objects:  12% (45/374)[Kremote: Compressing objects:  13% (49/374)[Kremote: Compressing objects:  14% (53/374)[Kremote: Compressing objects:  15% (57/374)[Kremote: Compressing objects:  16% (60/374)[Kremote: Compressing objects:  17% (64/374)[Kremote: Compressing objects:  18% (68/374)[Kremote: Compressing objects:  19% (72/374)[Kremote: Compressing objects:  20% (75/374)[Kremote: Compressing objects:  21% (79/374)[Kremote: Compressing objects:  22% (83/374)[Kremote: Compressing objects:  23% (87/374)[Kremote: Compressing objects:  24% (90/374)[Kremote: Compressing objects:  25% (94/374)[Kremote: Compressing objects:  26% (98/374)[Kremote: Compressing objects:  27% (101/374)[Kremote: Compressing objects:  28% (105/374)[Kremote: Compressing objects:  29% (109/374)[Kremote: Compressing objects:  30% (113/374)[Kremote: Compressing objects:  31% (116/374)[Kremote: Compressing objects:  32% (120/374)[Kremote: Compressing objects:  33% (124/374)[Kremote: Compressing objects:  34% (128/374)[Kremote: Compressing objects:  35% (131/374)[Kremote: Compressing objects:  36% (135/374)[Kremote: Compressing objects:  37% (139/374)[Kremote: Compressing objects:  38% (143/374)[Kremote: Compressing objects:  39% (146/374)[Kremote: Compressing objects:  40% (150/374)[Kremote: Compressing objects:  41% (154/374)[Kremote: Compressing objects:  42% (158/374)[Kremote: Compressing objects:  43% (161/374)[Kremote: Compressing objects:  44% (165/374)[Kremote: Compressing objects:  45% (169/374)[Kremote: Compressing objects:  46% (173/374)[Kremote: Compressing objects:  47% (176/374)[Kremote: Compressing objects:  48% (180/374)[Kremote: Compressing objects:  49% (184/374)[Kremote: Compressing objects:  50% (187/374)[Kremote: Compressing objects:  51% (191/374)[Kremote: Compressing objects:  52% (195/374)[Kremote: Compressing objects:  53% (199/374)[Kremote: Compressing objects:  54% (202/374)[Kremote: Compressing objects:  55% (206/374)[Kremote: Compressing objects:  56% (210/374)[Kremote: Compressing objects:  57% (214/374)[Kremote: Compressing objects:  58% (217/374)[Kremote: Compressing objects:  59% (221/374)[Kremote: Compressing objects:  60% (225/374)[Kremote: Compressing objects:  61% (229/374)[Kremote: Compressing objects:  62% (232/374)[Kremote: Compressing objects:  63% (236/374)[Kremote: Compressing objects:  64% (240/374)[Kremote: Compressing objects:  65% (244/374)[Kremote: Compressing objects:  66% (247/374)[Kremote: Compressing objects:  67% (251/374)[Kremote: Compressing objects:  68% (255/374)[Kremote: Compressing objects:  69% (259/374)[Kremote: Compressing objects:  70% (262/374)[Kremote: Compressing objects:  71% (266/374)[Kremote: Compressing objects:  72% (270/374)[Kremote: Compressing objects:  73% (274/374)[Kremote: Compressing objects:  74% (277/374)[Kremote: Compressing objects:  75% (281/374)[Kremote: Compressing objects:  76% (285/374)[Kremote: Compressing objects:  77% (288/374)[Kremote: Compressing objects:  78% (292/374)[Kremote: Compressing objects:  79% (296/374)[Kremote: Compressing objects:  80% (300/374)[Kremote: Compressing objects:  81% (303/374)[Kremote: Compressing objects:  82% (307/374)[Kremote: Compressing objects:  83% (311/374)[Kremote: Compressing objects:  84% (315/374)[Kremote: Compressing objects:  85% (318/374)[Kremote: Compressing objects:  86% (322/374)[Kremote: Compressing objects:  87% (326/374)[Kremote: Compressing objects:  88% (330/374)[Kremote: Compressing objects:  89% (333/374)[Kremote: Compressing objects:  90% (337/374)[Kremote: Compressing objects:  91% (341/374)[Kremote: Compressing objects:  92% (345/374)[Kremote: Compressing objects:  93% (348/374)[Kremote: Compressing objects:  94% (352/374)[Kremote: Compressing objects:  95% (356/374)[Kremote: Compressing objects:  96% (360/374)[Kremote: Compressing objects:  97% (363/374)[Kremote: Compressing objects:  98% (367/374)[Kremote: Compressing objects:  99% (371/374)[Kremote: Compressing objects: 100% (374/374)[Kremote: Compressing objects: 100% (374/374), done.[K
-Receiving objects:   0% (1/3916)Receiving objects:   1% (40/3916)Receiving objects:   2% (79/3916)Receiving objects:   3% (118/3916)Receiving objects:   4% (157/3916)Receiving objects:   5% (196/3916)Receiving objects:   6% (235/3916)Receiving objects:   7% (275/3916)Receiving objects:   8% (314/3916)Receiving objects:   9% (353/3916)Receiving objects:  10% (392/3916)Receiving objects:  11% (431/3916)Receiving objects:  12% (470/3916)Receiving objects:  13% (510/3916)Receiving objects:  14% (549/3916)Receiving objects:  15% (588/3916)Receiving objects:  16% (627/3916)Receiving objects:  17% (666/3916)Receiving objects:  18% (705/3916)Receiving objects:  19% (745/3916)Receiving objects:  20% (784/3916)Receiving objects:  21% (823/3916)Receiving objects:  22% (862/3916)Receiving objects:  23% (901/3916)Receiving objects:  24% (940/3916)Receiving objects:  25% (979/3916)Receiving objects:  26% (1019/3916)Receiving objects:  27% (1058/3916)Receiving objects:  28% (1097/3916)Receiving objects:  29% (1136/3916)Receiving objects:  30% (1175/3916)Receiving objects:  31% (1214/3916)Receiving objects:  32% (1254/3916)Receiving objects:  33% (1293/3916)Receiving objects:  34% (1332/3916)Receiving objects:  35% (1371/3916)Receiving objects:  36% (1410/3916)Receiving objects:  37% (1449/3916)Receiving objects:  38% (1489/3916)Receiving objects:  39% (1528/3916)Receiving objects:  40% (1567/3916)Receiving objects:  41% (1606/3916)Receiving objects:  42% (1645/3916)Receiving objects:  43% (1684/3916)Receiving objects:  44% (1724/3916)Receiving objects:  45% (1763/3916)Receiving objects:  46% (1802/3916)Receiving objects:  47% (1841/3916)Receiving objects:  48% (1880/3916)Receiving objects:  49% (1919/3916)Receiving objects:  50% (1958/3916)Receiving objects:  51% (1998/3916)Receiving objects:  52% (2037/3916)Receiving objects:  53% (2076/3916)Receiving objects:  54% (2115/3916)Receiving objects:  55% (2154/3916)Receiving objects:  56% (2193/3916)Receiving objects:  57% (2233/3916)Receiving objects:  58% (2272/3916)Receiving objects:  59% (2311/3916)Receiving objects:  60% (2350/3916)Receiving objects:  61% (2389/3916)Receiving objects:  62% (2428/3916)Receiving objects:  63% (2468/3916)Receiving objects:  64% (2507/3916)Receiving objects:  65% (2546/3916)Receiving objects:  66% (2585/3916)Receiving objects:  67% (2624/3916)Receiving objects:  68% (2663/3916)Receiving objects:  69% (2703/3916)Receiving objects:  70% (2742/3916)Receiving objects:  71% (2781/3916)Receiving objects:  72% (2820/3916)Receiving objects:  73% (2859/3916)Receiving objects:  74% (2898/3916)Receiving objects:  75% (2937/3916)Receiving objects:  76% (2977/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  77% (3016/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  78% (3055/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  79% (3094/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  80% (3133/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  81% (3172/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  82% (3212/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  83% (3251/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  84% (3290/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  85% (3329/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  86% (3368/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  87% (3407/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  88% (3447/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  89% (3486/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  90% (3525/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  91% (3564/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  92% (3603/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  93% (3642/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  94% (3682/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  95% (3721/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  96% (3760/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  97% (3799/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  98% (3838/3916), 3.39 MiB | 6.77 MiB/sReceiving objects:  99% (3877/3916), 3.39 MiB | 6.77 MiB/sremote: Total 3916 (delta 343), reused 346 (delta 170), pack-reused 3372[K
-Receiving objects: 100% (3916/3916), 3.39 MiB | 6.77 MiB/sReceiving objects: 100% (3916/3916), 6.46 MiB | 7.71 MiB/s, done.
-Resolving deltas:   0% (0/2695)Resolving deltas:   1% (27/2695)Resolving deltas:   2% (54/2695)Resolving deltas:   3% (81/2695)Resolving deltas:   4% (108/2695)Resolving deltas:   5% (135/2695)Resolving deltas:   6% (162/2695)Resolving deltas:   7% (189/2695)Resolving deltas:   8% (216/2695)Resolving deltas:   9% (243/2695)Resolving deltas:  10% (270/2695)Resolving deltas:  11% (297/2695)Resolving deltas:  12% (324/2695)Resolving deltas:  13% (351/2695)Resolving deltas:  14% (378/2695)Resolving deltas:  15% (405/2695)Resolving deltas:  16% (432/2695)Resolving deltas:  17% (459/2695)Resolving deltas:  18% (486/2695)Resolving deltas:  19% (513/2695)Resolving deltas:  20% (539/2695)Resolving deltas:  21% (566/2695)Resolving deltas:  22% (593/2695)Resolving deltas:  23% (620/2695)Resolving deltas:  24% (647/2695)Resolving deltas:  25% (674/2695)Resolving deltas:  26% (701/2695)Resolving deltas:  27% (728/2695)Resolving deltas:  28% (755/2695)Resolving deltas:  29% (782/2695)Resolving deltas:  30% (809/2695)Resolving deltas:  31% (836/2695)Resolving deltas:  32% (863/2695)Resolving deltas:  33% (890/2695)Resolving deltas:  34% (917/2695)Resolving deltas:  35% (944/2695)Resolving deltas:  36% (971/2695)Resolving deltas:  37% (998/2695)Resolving deltas:  38% (1025/2695)Resolving deltas:  39% (1052/2695)Resolving deltas:  40% (1078/2695)Resolving deltas:  41% (1105/2695)Resolving deltas:  42% (1132/2695)Resolving deltas:  43% (1159/2695)Resolving deltas:  44% (1186/2695)Resolving deltas:  45% (1213/2695)Resolving deltas:  46% (1240/2695)Resolving deltas:  47% (1267/2695)Resolving deltas:  48% (1294/2695)Resolving deltas:  49% (1321/2695)Resolving deltas:  50% (1348/2695)Resolving deltas:  51% (1375/2695)Resolving deltas:  52% (1402/2695)Resolving deltas:  53% (1429/2695)Resolving deltas:  54% (1456/2695)Resolving deltas:  55% (1483/2695)Resolving deltas:  56% (1510/2695)Resolving deltas:  57% (1537/2695)Resolving deltas:  58% (1564/2695)Resolving deltas:  59% (1591/2695)Resolving deltas:  60% (1617/2695)Resolving deltas:  61% (1644/2695)Resolving deltas:  62% (1671/2695)Resolving deltas:  63% (1698/2695)Resolving deltas:  64% (1725/2695)Resolving deltas:  65% (1752/2695)Resolving deltas:  66% (1779/2695)Resolving deltas:  67% (1806/2695)Resolving deltas:  68% (1833/2695)Resolving deltas:  69% (1860/2695)Resolving deltas:  70% (1887/2695)Resolving deltas:  71% (1914/2695)Resolving deltas:  72% (1941/2695)Resolving deltas:  73% (1968/2695)Resolving deltas:  74% (1995/2695)Resolving deltas:  75% (2022/2695)Resolving deltas:  76% (2049/2695)Resolving deltas:  77% (2076/2695)Resolving deltas:  78% (2103/2695)Resolving deltas:  79% (2130/2695)Resolving deltas:  80% (2156/2695)Resolving deltas:  81% (2183/2695)Resolving deltas:  82% (2210/2695)Resolving deltas:  83% (2237/2695)Resolving deltas:  84% (2264/2695)Resolving deltas:  85% (2291/2695)Resolving deltas:  86% (2318/2695)Resolving deltas:  87% (2345/2695)Resolving deltas:  88% (2372/2695)Resolving deltas:  89% (2399/2695)Resolving deltas:  90% (2426/2695)Resolving deltas:  91% (2453/2695)Resolving deltas:  92% (2480/2695)Resolving deltas:  93% (2507/2695)Resolving deltas:  94% (2534/2695)Resolving deltas:  95% (2561/2695)Resolving deltas:  96% (2588/2695)Resolving deltas:  97% (2615/2695)Resolving deltas:  98% (2642/2695)Resolving deltas:  99% (2669/2695)Resolving deltas: 100% (2695/2695)Resolving deltas: 100% (2695/2695), done.
-[1;34m::[0m [1mResolving dependencies...[0m
-[1;34m::[0m [1mCalculating conflicts...[0m
-[1;34m::[0m [1mCalculating inner conflicts...[0m
-
-[1mAur (1) [0mwhitesur-cursor-theme-git-r3.1ada17d-1
-
-[1;34m::[0m [1mProceed with installation?[0m [1m[Y/n]:[0m 
-
-[1;34m::[0m [1mDownloading PKGBUILDs...[0m
- PKGBUILDs up to date
-[1m[32m==>(B[m[1m Making package: whitesur-cursor-theme-git r6.2cb7219-1 (Monday 23 August 2021 01:52:49 PM)(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B[m
-[1m[34m  ->(B[m[1m Updating WhiteSur-cursors git repo...(B[m
-Fetching origin
-[1m[32m==>(B[m[1m Validating source files with sha256sums...(B[m
-    WhiteSur-cursors ... Skipped
-[1m[32m==>(B[m[1m Making package: whitesur-cursor-theme-git r6.2cb7219-1 (Monday 23 August 2021 01:52:51 PM)(B[m
-[1m[32m==>(B[m[1m Checking runtime dependencies...(B[m
-[1m[32m==>(B[m[1m Checking buildtime dependencies...(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B[m
-[1m[34m  ->(B[m[1m Updating WhiteSur-cursors git repo...(B[m
-Fetching origin
-[1m[32m==>(B[m[1m Validating source files with sha256sums...(B[m
-    WhiteSur-cursors ... Skipped
-[1m[32m==>(B[m[1m Removing existing $srcdir/ directory...(B[m
-[1m[32m==>(B[m[1m Extracting sources...(B[m
-[1m[34m  ->(B[m[1m Creating working copy of WhiteSur-cursors git repo...(B[m
-Cloning into 'WhiteSur-cursors'...
-done.
-[1m[32m==>(B[m[1m Starting pkgver()...(B[m
-[1m[32m==>(B[m[1m Sources are ready.(B[m
-whitesur-cursor-theme-git-r3.1ada17d-1: parsing pkg list...
-[33m::[0m whitesur-cursor-theme-git-r3.1ada17d-1 is up to date -- skipping
-[33m::[0m whitesur-cursor-theme-git-r3.1ada17d-1 is up to date -- skipping build
-[33m::[0m whitesur-cursor-theme-git-r3.1ada17d-1 is up to date -- skipping install
-[1;34m::[0m [1mResolving dependencies...[0m
-[1;34m::[0m [1mCalculating conflicts...[0m
-[1;34m::[0m [1mCalculating inner conflicts...[0m
-
-[1mAur (1) [0mwhitesur-icon-theme-git-r14.d14f5b8-1
-
-[1;34m::[0m [1mProceed with installation?[0m [1m[Y/n]:[0m 
-
-[1;34m::[0m [1mDownloading PKGBUILDs...[0m
- PKGBUILDs up to date
-[1m[32m==>(B[m[1m Making package: whitesur-icon-theme-git r161.290f214-1 (Monday 23 August 2021 01:52:56 PM)(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B[m
-[1m[34m  ->(B[m[1m Updating WhiteSur-icon-theme git repo...(B[m
-Fetching origin
-[1m[32m==>(B[m[1m Validating source files with sha256sums...(B[m
-    WhiteSur-icon-theme ... Skipped
-[1m[32m==>(B[m[1m Making package: whitesur-icon-theme-git r161.290f214-1 (Monday 23 August 2021 01:52:58 PM)(B[m
-[1m[32m==>(B[m[1m Checking runtime dependencies...(B[m
-[1m[32m==>(B[m[1m Checking buildtime dependencies...(B[m
-[1m[32m==>(B[m[1m Retrieving sources...(B
